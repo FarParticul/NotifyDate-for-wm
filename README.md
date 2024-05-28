@@ -13,6 +13,11 @@ T=$(date +%H:%M)
 notify-send -a "your wm" " $D  "" $T"
 #  - the icon in the Nerd Font
 ```
+# Script from Emre AKYÜZ
+```
+#!/bin/sh
+notify-send -a "Date" " $(date '+%d-%m-%y   %H:%M')"
+```
 # variant of a bloated script
 ```
 #!/usr/bin/env bash
